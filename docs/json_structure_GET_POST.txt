@@ -1,0 +1,30 @@
+Você
+
+GetDataWindow
+Pega dado um tempo em ms.
+Deve retornar todos os dados entre o momento da chamada menos o tempo em ms passado por parametro
+url: "/dashboard/GetDataWindow"
+data: { deviceid: 0, timestampinterval: 0}
+
+GetDataAccordion
+Deve retornar todos os dados entre o momento da chamada e a data informada pelo timestampstart timestamp
+url: "/dashboard/GetDataAccordion"
+data: { deviceid: 0, timestampstart: 0}
+
+
+GetCurrentData
+retorna os ultimos dados informados dado o id do nó
+url: "/dashboard/GetCurrentData"
+data: { deviceid: $("#SelectDeviceId").val()}
+
+GetData
+retorna todos os dados no intervalo de tempo startdate (timestamp) e finishdate (timestamp)
+url: "/dashboard/GetData"
+data: { deviceid: 0, startdate: 0, finishdate:0}
+
+GetDevices
+retorna todos os nós, não passa parametros
+url: "/dashboard/GetDevices"
+
+retorna pagina "dashboard.hmtl"
+url: "/dashboard"

@@ -1,0 +1,158 @@
+[{
+    "eventdataid": 1,
+    "logicalsensor": {
+        "logicalsensorid": 1,
+        "device": {
+            "deviceid": 1,
+            "devicegroup": {
+                "devicegroupid": 1,
+                "name": "group"
+            },
+            "devicetype": {
+                "devicetypeid": 1,
+                "name": "type"
+            },
+            "serialnumber": {
+                "serialnumberid": 1,
+                "serialnumber": "pijncpijewncisjn"
+            },
+            "description": "teste",
+            "active": true,
+            "applied": true
+        },
+        "measurement": {
+            "measurementid": 1,
+            "name": "C",
+            "description": "Temperature"
+        },
+        "intboard": {
+            "intboardid": 1,
+            "serialnumber": {
+                "serialnumberid": 1,
+                "serialnumber": "difsndosiudufhs"
+            },
+            "intboargroup": {
+                "intboardgroupid": 1,
+                "name": "group"
+            },
+            "rfboard": {
+                "rfboardid": 1,
+                "device": {
+                    "deviceid": 1,
+                    "devicegroup": {
+                        "devicegroupid": 1,
+                        "name": "group"
+                    },
+                    "devicetype":{
+                        "devicetypeid": 1,
+                        "description": "teste"
+                    },
+                    "serialnumber": {
+                        "serialnumberid": 1,
+                        "serialnumber": "psifiuuseroif"
+                    },
+                    "description": "teste",
+                    "active": true,
+                    "applied": true
+                },
+                "mqttclientembedded": true,
+                "lastdateconfig": "2018-10-30",
+                "firmwareversion": "v1",
+                "specification": "no spec"
+            },
+            "description": "rf board",
+            "active": true,
+            "applied": true
+        },
+        "channel": 1,
+        "portoffset": 0.0,
+        "portgain": 0.0,
+        "maxmeasuresensor": 0.0,
+        "minmeasuresensor": 0.0,
+        "maxlimitma": 0.0,
+        "minlimitma": 0.0
+    },
+    "hubevent": 1,
+    "status": 0,
+    "timestampdata": "2018-10-30 00:00:00",
+    "measure": 10.0 
+},
+{
+    "eventdataid": 2,
+    "logicalsensor": {
+        "logicalsensorid": 1,
+        "device": {
+            "deviceid": 1,
+            "devicegroup": {
+                "devicegroupid": 1,
+                "name": "group"
+            },
+            "devicetype": {
+                "devicetypeid": 1,
+                "name": "type"
+            },
+            "serialnumber": {
+                "serialnumberid": 1,
+                "serialnumber": "pijncpijewncisjn"
+            },
+            "description": "teste",
+            "active": true,
+            "applied": true
+        },
+        "measurement": {
+            "measurementid": 1,
+            "name": "C",
+            "description": "Temperature"
+        },
+        "intboard": {
+            "intboardid": 1,
+            "serialnumber": {
+                "serialnumberid": 1,
+                "serialnumber": "difsndosiudufhs"
+            },
+            "intboargroup": {
+                "intboardgroupid": 1,
+                "name": "group"
+            },
+            "rfboard": {
+                "rfboardid": 1,
+                "device": {
+                    "deviceid": 1,
+                    "devicegroup": {
+                        "devicegroupid": 1,
+                        "name": "group"
+                    },
+                    "devicetype":{
+                        "devicetypeid": 1,
+                        "description": "teste"
+                    },
+                    "serialnumber": {
+                        "serialnumberid": 1,
+                        "serialnumber": "psifiuuseroif"
+                    },
+                    "description": "teste",
+                    "active": true,
+                    "applied": true
+                },
+                "mqttclientembedded": true,
+                "lastdateconfig": "2018-10-30",
+                "firmwareversion": "v1",
+                "specification": "no spec"
+            },
+            "description": "rf board",
+            "active": true,
+            "applied": true
+        },
+        "channel": 1,
+        "portoffset": 0.0,
+        "portgain": 0.0,
+        "maxmeasuresensor": 0.0,
+        "minmeasuresensor": 0.0,
+        "maxlimitma": 0.0,
+        "minlimitma": 0.0
+    },
+    "hubevent": 2,
+    "status": 0,
+    "timestampdata": "2018-10-30 00:00:00",
+    "measure": 10.0 
+}]
