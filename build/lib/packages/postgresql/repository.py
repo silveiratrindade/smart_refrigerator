@@ -25,11 +25,11 @@ class Repository:
               
         return self.session.query(entity).get(ID)       
 
-    def GetFirst(self, entity, predicate, entity_attribute):
+    def GetFirst(self, entity, predicate, orderbydesc):
         ''' The predicate argument is optional. If you inform this, and after the returned list 
         will be filter by specific entity property criteria, only the first item would be selected.'''
 
-        return self.session.query(entity).filter(predicate).order_by(entity_attribute.desc()).first()     
+        return self.session.query(entity).filter(predicate).order_by(orderbydesc.desc()).first()     
        
     def GetAll(self, entity, predicate = ''):
         ''' The predicate argument is optional. If you inform this, the returned list will be filter 
